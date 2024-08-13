@@ -13,7 +13,7 @@ body {
   font-family: "Poppins";
   background-color: #efefef; }
 
-h2 {
+h1, h2 {
   font-family: "Poppins Bold";
   text-align: center;
   padding: 10px; }
