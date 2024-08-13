@@ -1,0 +1,17 @@
+.ver-mas {
+    @include button($colorWhite);
+    text-align: end;
+    padding: 1rem 3rem;
+}
+
+.leer-mas {
+    @include button($colorBlack);
+}
+
+.saber-mas-olam {
+    @include button($colorWhite);
+}
+
+.saber-mas-zomoz {
+    @include button($colorBlack);
+}

@@ -1,0 +1,26 @@
+.header-index {
+    height: 100vh;
+    background-image: url(../assets/img/hero.png);
+    background-position: center top;
+    background-size: cover;
+}
+
+.header-musica {
+    @extend .header-index;
+    background-image: url(../assets/img/hero-musica.jpg);
+}
+
+.header-bio {
+    @extend .header-index;
+    background-image: url(../assets/img/hero-biografia.jpg);
+}
+
+.header-olam {
+    @extend .header-index;
+    background-image: url(../assets/img/hero-olam.png);
+}
+
+.header-zomoz {
+    @extend .header-index;
+    background-image: url(../assets/img/hero-zomoz.jpg);
+}

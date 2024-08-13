@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+body {
+  font-family: "Poppins";
+  background-color: #efefef; }
+
+h2 {
+  font-family: "Poppins Bold";
+  text-align: center;
+  padding: 10px; }
+
+img {
+  width: 100%; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf"); }
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf"); }
+
+.header-index, .header-musica, .header-bio, .header-olam, .header-zomoz {
+  height: 100vh;
+  background-image: url(../assets/img/hero.png);
+  background-position: center top;
+  background-size: cover; }
+
+.header-musica {
+  background-image: url(../assets/img/hero-musica.jpg); }
+
+.header-bio {
+  background-image: url(../assets/img/hero-biografia.jpg); }
+
+.header-olam {
+  background-image: url(../assets/img/hero-olam.png); }
+
+.header-zomoz {
+  background-image: url(../assets/img/hero-zomoz.jpg); }
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 1rem; }
+  footer p {
+    color: #efefef; }
+
+.video-reciente {
+  text-align: center;
+  margin: 1rem 0; }
+
+.video {
+  width: 560px;
+  height: 315px; }
+
+.discografia {
+  background-color: black;
+  color: #efefef;
+  text-align: center;
+  margin: 1rem 0; }
+
+.title-qed {
+  grid-area: a; }
+
+.article-qed {
+  grid-area: b;
+  width: 70%;
+  text-align: end;
+  justify-self: end;
+  padding-right: 1rem; }
+
+.img-about {
+  grid-area: c;
+  width: 60%;
+  justify-self: start; }
+
+.quien-es-dari {
+  display: grid;
+  grid-template-areas: "a a" "b c" "b c";
+  align-items: center;
+  justify-items: center;
+  margin: 1rem 0; }
+
+.title-olam {
+  grid-area: d; }
+
+.img-olam {
+  grid-area: e;
+  width: 70%;
+  justify-self: end; }
+
+.article-olam {
+  grid-area: f;
+  width: 70%;
+  text-align: start;
+  justify-self: start;
+  padding-left: 1rem; }
+  .article-olam p {
+    color: #efefef; }
+
+.olam {
+  display: grid;
+  grid-template-areas: "d d" "e f" "e f";
+  align-items: center;
+  justify-items: center;
+  margin: 1rem 0;
+  background-color: black;
+  padding: 1rem 0; }
+  .olam h2 {
+    color: #5292F2; }
+
+.title-zomoz {
+  grid-area: g; }
+
+.img-zomoz {
+  grid-area: h;
+  width: 70%;
+  justify-self: end; }
+
+.article-zomoz {
+  grid-area: i;
+  width: 70%;
+  text-align: start;
+  justify-self: start;
+  padding-left: 1rem; }
+
+.zomoz {
+  display: grid;
+  grid-template-areas: "g g" "h i" "h i";
+  align-items: center;
+  justify-items: center;
+  margin: 1rem 0;
+  padding: 1rem 0; }
+
+.title {
+  text-align: center; }
+
+.music {
+  padding: 1rem 5rem; }
+
+.bio-1, .bio-2 {
+  grid-area: b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 1rem; }
+
+.bio-2 {
+  grid-area: b2; }
+
+.bio-p {
+  width: 50%; }
+
+.bio-img {
+  width: 30%; }
+
+.bio-3 {
+  position: relative; }
+
+.bio-absolute {
+  position: absolute;
+  width: 40%;
+  top: 20%;
+  left: 15%; }
+
+.quote-name {
+  font-family: "Poppins Bold";
+  padding-top: 0.5rem; }
+
+.bio {
+  display: grid;
+  grid-template-areas: "b1 b1" "b2 b2";
+  padding: 0 4rem; }
+
+.olam-info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem; }
+
+.malo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 200px;
+  color: #efefef;
+  font-size: 5rem;
+  font-family: "Poppins Bold"; }
+
+.escucha-olam {
+  background-color: black;
+  color: #efefef;
+  text-align: center;
+  padding: 1rem 0; }
+
+.olam-acustico {
+  text-align: center;
+  margin: 1rem 0; }
+
+.escucha-zomoz {
+  background-color: black;
+  color: #efefef; }
+
+.video-ig img {
+  width: 30%; }
+
+.ver-mas {
+  padding-top: 1rem;
+  text-align: end;
+  padding: 1rem 3rem; }
+  .ver-mas a {
+    color: #efefef;
+    font-family: "Poppins Bold"; }
+    .ver-mas a:hover {
+      border-bottom: 1px solid #efefef; }
+
+.leer-mas {
+  padding-top: 1rem; }
+  .leer-mas a {
+    color: black;
+    font-family: "Poppins Bold"; }
+    .leer-mas a:hover {
+      border-bottom: 1px solid black; }
+
+.saber-mas-olam {
+  padding-top: 1rem; }
+  .saber-mas-olam a {
+    color: #efefef;
+    font-family: "Poppins Bold"; }
+    .saber-mas-olam a:hover {
+      border-bottom: 1px solid #efefef; }
+
+.saber-mas-zomoz {
+  padding-top: 1rem; }
+  .saber-mas-zomoz a {
+    color: black;
+    font-family: "Poppins Bold"; }
+    .saber-mas-zomoz a:hover {
+      border-bottom: 1px solid black; }
+
+.nav {
+  padding: 15px;
+  background-color: rgba(41, 40, 35, 0.509); }
+  .nav a {
+    color: #efefef; }
+
+.navbar-toggler {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent; }
+
+.offcanvas {
+  bottom: auto;
+  color: #efefef;
+  background-color: rgba(41, 40, 35, 0.509); }
+
+.offcanvas-header {
+  flex-direction: row-reverse;
+  background-color: rgba(41, 40, 35, 0.509);
+  justify-content: space-between;
+  height: 4.6875rem; }
+
+.btn-close {
+  color: #efefef;
+  background-color: #efefef; }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #efefef; }
+
+.active {
+  color: #efefef;
+  border-bottom: 1px solid #efefef; }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #efefef;
+  font-family: "Poppins Bold"; }
+
+@media (max-width: 768px) {
+  .video {
+    width: 70%;
+    height: 70%; }
+  .header-olam {
+    height: 50vh; }
+  .img-about {
+    width: 80%; }
+  .bio-p {
+    width: 80%; }
+  .bio-img {
+    width: 60%; }
+  .bio-absolute {
+    font-size: 10px;
+    width: 50%;
+    top: 15%;
+    left: 5%; } }
+
+@media (max-width: 426px) {
+  .header-index, .header-musica, .header-bio, .header-olam, .header-zomoz,
+  .header-musica,
+  .header-bio,
+  .header-olam,
+  .header-zomoz {
+    height: 50vh; }
+  .video {
+    width: 70%;
+    height: 70%; }
+  .quien-es-dari {
+    grid-template-areas: "a" "c" "b"; }
+  .olam {
+    grid-template-areas: "d" "e" "f"; }
+  .zomoz {
+    grid-template-areas: "g" "h" "i"; }
+  .article-qed,
+  .article-olam,
+  .article-zomoz {
+    text-align: center;
+    justify-self: center; }
+  .leer-mas,
+  .saber-mas-olam,
+  .saber-mas-zomoz {
+    text-align: end; }
+  .img-about,
+  .img-olam,
+  .img-zomoz {
+    justify-self: center; }
+  .bio-1, .bio-2 {
+    flex-direction: column; }
+  .bio-2 {
+    flex-direction: column-reverse; }
+  .bio {
+    grid-template-areas: "b1" "b2"; }
+  .bio-absolute {
+    font-size: 8px;
+    width: 60%;
+    top: 20%;
+    left: 5%; }
+  .malo {
+    font-size: 3rem; }
+  .olam-info {
+    width: 100%; }
+  .video-ig img {
+    width: 50%; } }

@@ -1,0 +1,50 @@
+.nav {
+    padding: 15px;
+    background-color: rgba(41, 40, 35, 0.509);
+
+    a {
+        color: $colorWhite;
+    }
+}
+
+.navbar-toggler {
+    color: transparent;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.offcanvas {
+    bottom: auto;
+    color: $colorWhite;
+    background-color: rgba(41, 40, 35, 0.509);
+}
+
+.offcanvas-header {
+    flex-direction: row-reverse;
+    background-color: rgba(41, 40, 35, 0.509);
+    justify-content: space-between;
+    height: 4.6875rem;
+}
+
+.btn-close {
+    color: $colorWhite;
+    background-color: $colorWhite;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: $colorWhite;
+}
+
+.active {
+    color: $colorWhite;
+    border-bottom: 1px solid $colorWhite;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: $colorWhite;
+    font-family: "Poppins Bold";
+}
