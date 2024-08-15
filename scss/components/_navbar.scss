@@ -1,9 +1,38 @@
 .nav {
     padding: 15px;
     background-color: rgba(41, 40, 35, 0.509);
+}
 
-    a {
-        color: $colorWhite;
+.navbar-brand{
+    color: #fff;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link {
+    position: relative;
+    letter-spacing: 0.5px;
+    color: #ffffff9d;
+
+    &:hover{
+        color: #fff;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: #fff;
+        height: 2px;
+        width: 0;
+        left: 0;
+        bottom: -1.6px;
+        transition: 0.2s;
+    }
+
+    &:hover::after {
+        width: 100%;
     }
 }
 
@@ -35,16 +64,15 @@
 .navbar-nav .nav-link.show,
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: $colorWhite;
+    color: #fff;
 }
 
 .active {
-    color: $colorWhite;
-    border-bottom: 1px solid $colorWhite;
+    color: #fff;
+    border-bottom: 2px solid #fff;
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: $colorWhite;
-    font-family: "Poppins Bold";
 }
