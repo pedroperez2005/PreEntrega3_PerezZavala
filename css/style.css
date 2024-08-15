@@ -11,7 +11,8 @@ li {
 
 body {
   font-family: "Poppins";
-  background-color: #efefef; }
+  background-color: #efefef;
+  overflow-x: hidden; }
 
 h1, h2 {
   font-family: "Poppins Bold";

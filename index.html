@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Home - Dariana</title>
 </head>
 
 <body>
-    <header class="header-index">
+    <header class="header-index" data-aos="fade-down">
         <nav class="navbar nav fixed-top navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand fs-3" href="#">Dariana</a>
@@ -37,7 +38,7 @@
                             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dariana</h5>
                         </div>
                     </div>
-                    <div class="offcanvas-body">
+                    <div class="offcanvas-body" data-aos="fade-right" data-aos-duration="1000">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -61,15 +62,15 @@
         </nav>
     </header>
     <main>
-        <section class="video-reciente">
-            <h2>Video más reciente</h2>
+        <section class="video-reciente" data-aos="fade-up">
+            <h2 data-aos="fade-right">Video más reciente</h2>
             <iframe class="video" src="https://www.youtube.com/embed/ta96SCvcoJY?si=u-JKBnWhwGXOsyNH"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
-        <section class="discografia">
+        <section class="discografia" data-aos="fade-up">
             <h2>Discografía</h2>
             <div class="albums">
                 <div>
@@ -101,7 +102,7 @@
 
         </section>
 
-        <section class="quien-es-dari">
+        <section class="quien-es-dari" data-aos="fade-up">
             <h2 class="title-qed">¿Quién es <span>Dariana</span>?</h2>
             <article class="article-qed">
                 <div class="info-about">
@@ -120,7 +121,7 @@
             </div>
         </section>
 
-        <section class="olam">
+        <section class="olam" data-aos="fade-up">
             <h2 class="title-olam">OLAM</h2>
             <div class="img-olam">
                 <img src="./assets/img/olam.jpg" alt="Portada de álbum Olam">
@@ -136,7 +137,7 @@
             </article>
         </section>
 
-        <section class="zomoz">
+        <section class="zomoz" data-aos="fade-up">
             <h2 class="title-zomoz"><span>Zomoz</span> Música</h2>
             <div class="img-zomoz">
                 <img src="./assets/img/zomoz.png" alt="Grupo Zomoz Música">
@@ -203,6 +204,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
